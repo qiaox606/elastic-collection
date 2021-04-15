@@ -1,0 +1,71 @@
+@import url(//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg);
+@import url(//db.onlinewebfonts.com/c/d47a5bdf1ee227d2779bce41e78e5713?family=Cormorant);
+@import url("https://use.typekit.net/luz4znz.css");
+
+body {
+  background-color: #EFE6DD;
+  font-family: "Ogg";
+  font-weight: 300;
+}
+
+p{
+  font-family: "monotype grotesque", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 2.5;
+  font-size:16px;
+  text-align:left;
+  margin-top:8px;
+}
+
+h2{
+  position:relative;
+  text-align:right;
+  font-size:60px;
+  width: 8em;
+  line-height: 1;
+  left:55%;
+  margin-bottom:10px;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 0.1em;
+  top: 8px;
+  margin-left:5%;
+  width: 8em;
+  line-height: 1.5;
+}
+
+img{
+  text-align:center;
+}
+
+.float-container {
+    border: 3px solid #EFE6DD;
+    padding: 20px;
+}
+
+.float-1 {
+    width: 50%;
+    float: center;
+    padding: 20px;
+    margin-left:25%;
+}  
+
+
+a:hover {
+  border-bottom: 4px solid #8F7360;
+  padding-bottom: 1px;
+  color:#8F7360;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:click{
+  text-decoration: none;
+}

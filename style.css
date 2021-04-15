@@ -1,0 +1,196 @@
+@import url(//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url("https://use.typekit.net/luz4znz.css");
+@import url("https://use.typekit.net/luz4znz.css");
+
+
+body {
+  background-color: #EFE6DD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Ogg";
+  font-weight: 300;
+}
+
+p{
+  font-family: "monotype grotesque", sans-serif;
+  line-height: 2.3;
+  font-size:14px;
+  text-align: left;
+  color:black;
+  width:150px;
+}
+
+.Apocalypse{
+  font-family: "Ogg";
+  font-size:100px;
+  top: 30px;
+  right: 16px;
+  text-align: center;
+  text-transform:uppercase;
+  color:black;
+}
+
+.The{
+  font-family: "Ogg";
+  font-size:100px;
+  position:absolute;
+  left:35%;
+  bottom:27%;
+  text-transform:uppercase;
+  text-align: center;
+  color:black;
+}
+
+.side-crop { 
+  bottom: 20%;
+  left: 50%;
+  max-height: 200px; 
+  overflow: hidden; 
+}
+
+.page {
+  position: relative;
+}
+
+.side-crop img { 
+}
+
+
+h2{
+  font-family: 'Cormorant Garamond', serif;
+  font-size:20px;
+  line-height:1.5;
+  font-weight: 600;
+  color:black;
+}
+
+nav {
+  background-color: #EFE6DD;
+  display: block;
+  padding: 2em 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  color: black;
+  margin: 0 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  border-bottom: 1px solid #8F7360;
+  padding-bottom: 3px;
+  color:#8F7360;
+}
+
+.scrolling-box {
+  background-color: #EFE6DD;
+  display: block;
+  overflow-y: scroll;
+  text-align: center;
+  height: 100vh;
+  width:100%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width:100%;
+}
+
+.text{
+  width:200px;
+  text-align:left;
+  margin-left:5%;
+  color:black;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2% 2% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+  color:transparent;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 4% 2%;
+  line-height: 0;
+  
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+}
+
+.box > span {
+  font-size: 13px;
+  margin-top:15px;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 1.5;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+a span {
+  position: absolute;
+  top: 25%;
+  width: 24px;
+  height: 24px;
+  margin-top:50%;
+  margin-left: -12px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
